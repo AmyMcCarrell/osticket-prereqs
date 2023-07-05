@@ -1,11 +1,16 @@
+
+<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-Hello and welcome! I'm Amy, an IT professional and I'm thrilled to present my first GitHub project and tutorial on setting up osTicket, a powerful open-source help desk ticketing system. If you’re looking to streamline your support communications, you’ve come to the right place!
+
+Hello and welcome! I'm Amy, an IT professional, and I'm thrilled to present my first GitHub project and tutorial on setting up osTicket, a powerful help desk ticketing system. If you're looking to streamline your support communications, you've come to the right place!
+
 
 <h2>What is osTicket?</h2>
-osTicket is a versatile, open-source support ticket system that optimizes customer service workflows by centralizing inquiries from various channels into one user-friendly interface. Built on PHP and MySQL, it allows for robust customizations and integrations, making it an invaluable asset for any business focused on efficient, responsive customer support.
+
+osTicket is a versatile support ticket system that optimizes customer service workflows by centralizing inquiries from various channels into one user-friendly interface. Built on PHP and MySQL, it allows for robust customizations and integrations, making it an invaluable asset for any business focused on efficient, responsive customer support.
 
 <h2>Tools and Technologies We Will Employ:</h2>
 
