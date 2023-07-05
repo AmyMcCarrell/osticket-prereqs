@@ -3,14 +3,19 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - Setting Up for Success: Prerequisites and Installation Guide</h1>
 
-Hello and welcome! I'm Amy, an IT professional, and I'm thrilled to present my first GitHub project and tutorial on setting up osTicket, a powerful help desk ticketing system. If you're looking to streamline your support communications, you've come to the right place!
+Hello and welcome! I'm Amy, an IT professional passionate about empowering teams with effective communication tools. I'm thrilled to present my first GitHub project and tutorial on setting up osTicket, a powerful open-source help desk ticketing system. If you’re looking to streamline your support communications, you’ve come to the right place!
+
+<h2>🛠 What is osTicket?</h2>
+osTicket is a highly regarded open-source ticketing system. Imagine having a centralized command center for all your customer support communications. Whether it’s emails, phone calls, or web-based forms, osTicket effortlessly aggregates these inquiries and provides an intuitive multi-user web interface. The end game? A structured and efficient way to manage, organize, and archive support requests and responses, ensuring your customers receive the exceptional service they deserve.
+</p>
+
+<br>
 
 
-<h2>What is osTicket?</h2>
+In this walkthrough, we’ll tackle the essentials – from prerequisites to a step-by-step installation guide. Ready to upgrade your customer support experience? Let’s get started!
 
-osTicket is a versatile support ticket system that optimizes customer service workflows by centralizing inquiries from various channels into one user-friendly interface. Built on PHP and MySQL, it allows for robust customizations and integrations, making it an invaluable asset for any business focused on efficient, responsive customer support.
 
 <h2>Tools and Technologies We Will Employ:</h2>
 
@@ -26,6 +31,7 @@ osTicket is a versatile support ticket system that optimizes customer service wo
 <h2>List of Prerequisites</h2>
 
 - **Microsoft Azure Virtual Machine**
+  - [Active subscription in Azure](https://portal.azure.com)
 - **osTicket Installation files**
   - [PHP Manager for IIS](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link)
   - [Rewrite Module](https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link)
@@ -38,6 +44,10 @@ osTicket is a versatile support ticket system that optimizes customer service wo
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/49fb9c9c-5da0-4fbf-a0ff-f52b8a70543e">
+
+We will first start by creating a rescource group in Microsoft Azure. Click on rescource group (RG) or search rescource in the search bar. 
+Great now click, Create...
+
 </p>
 
 <br><br>
@@ -45,13 +55,11 @@ osTicket is a versatile support ticket system that optimizes customer service wo
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/40eada66-b9cc-4014-a6d4-035ec64f8128">
-</p>
 
-<br><br>
-
-
-<p align="center">
-  <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/e5e2871f-09b2-435a-856b-9aa9f7bc1bf5">
+1. Create a RG name 
+2. Choose a Region  (I chose RG-osTicket and (US) East US)
+3. Click Review + Create
+After that has been done, we will next create a Virtual Machine in the rescource group. 
 </p>
 
 <br><br>
@@ -59,6 +67,9 @@ osTicket is a versatile support ticket system that optimizes customer service wo
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/287fbdc3-829d-4e5c-b840-c71cc36f6a1a">
+
+
+</p>
 
 <br><br>
 
@@ -84,8 +95,13 @@ osTicket is a versatile support ticket system that optimizes customer service wo
 <br><br>
 
 
- ** >> **
- 
+<p align="center">
+  <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/e5e2871f-09b2-435a-856b-9aa9f7bc1bf5">
+
+
+</p>
+
+<br><br> 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/c366ea49-519f-429b-ba67-aff6c51d70a3">
 </p>
