@@ -45,8 +45,8 @@ In this walkthrough, we’ll tackle the essentials – from prerequisites to a s
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/49fb9c9c-5da0-4fbf-a0ff-f52b8a70543e">
 
-We will first start by creating a rescource group in Microsoft Azure. Click on rescource group (RG) or search rescource in the search bar. 
-Great now click, Create...
+Let's begin by creating a resource group in Microsoft Azure. Open the Azure portal and navigate to the Resource Group section. 
+Click on "Create Resource Group" or type "resource" in the search bar to find the option. 
 
 </p>
 
@@ -55,7 +55,7 @@ Great now click, Create...
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/40eada66-b9cc-4014-a6d4-035ec64f8128">
-
+Choose a unique name and select a region for your resource group.
 1. Create a RG name 
 2. Choose a Region  (I chose RG-osTicket and (US) East US)
 3. Click Review + Create
