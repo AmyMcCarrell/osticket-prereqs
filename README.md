@@ -5,7 +5,7 @@
 
 <h1>osTicket - Setting Up for Success: Prerequisites and Installation Guide</h1>
 
-Hello and welcome! I'm Amy, an IT professional passionate about empowering teams with effective communication tools. I'm thrilled to present my first GitHub project and tutorial on setting up osTicket, a powerful open-source help desk ticketing system. If you’re looking to streamline your support communications, you’ve come to the right place!
+Hello and welcome! I'm Amy, an IT professional passionate about empowering teams with effective communication tools. I'm thrilled to present my first GitHub project and tutorial on setting up osTicket. If you’re looking to streamline your support communications, you’ve come to the right place!
 
 <h2>🛠 What is osTicket?</h2>
 osTicket is a highly regarded open-source ticketing system. Imagine having a centralized command center for all your customer support communications. Whether it’s emails, phone calls, or web-based forms, osTicket effortlessly aggregates these inquiries and provides an intuitive multi-user web interface. The end game? A structured and efficient way to manage, organize, and archive support requests and responses, ensuring your customers receive the exceptional service they deserve.
@@ -45,9 +45,8 @@ In this walkthrough, we’ll tackle the essentials – from prerequisites to a s
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/49fb9c9c-5da0-4fbf-a0ff-f52b8a70543e">
 
-Let's begin by creating a resource group in Microsoft Azure. Open the Azure portal and navigate to the Resource Group section. 
+Let's begin by creating a resource group in Microsoft Azure. Open the Azure portal and navigate to the Resource Group section.<br>
 Click on "Create Resource Group" or type "resource" in the search bar to find the option. 
-
 </p>
 
 <br><br>
@@ -55,11 +54,11 @@ Click on "Create Resource Group" or type "resource" in the search bar to find th
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/40eada66-b9cc-4014-a6d4-035ec64f8128">
-Choose a unique name and select a region for your resource group.
-1. Create a RG name 
-2. Choose a Region  (I chose RG-osTicket and (US) East US)
-3. Click Review + Create
-After that has been done, we will next create a Virtual Machine in the rescource group. 
+  
+Create a resource group by giving it a unique name and selecting a region.<br>
+1. Enter a unique name for your Resource Group.<br>
+2. Select a Region for your resource group (e.g., I chose "US East").<br>
+3. Click 'Review + Create'.<br>
 </p>
 
 <br><br>
@@ -67,8 +66,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/287fbdc3-829d-4e5c-b840-c71cc36f6a1a">
-
-
+  
+In the search bar, start typing "Virtual". Once the option labeled "Virtual Machine" appears, click on it.
 </p>
 
 <br><br>
@@ -76,6 +75,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/854652a9-28de-4e92-9a44-e899d01e8a38">
+
+
 </p>
 
 <br><br>
@@ -83,6 +84,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/79716214-af1b-4466-b99c-5c86301351bf">
+
+
 </p>
 
 <br><br>
@@ -90,6 +93,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/ec27d128-bbb1-4734-a641-25b2ae750c7c">
+
+  
 </p>
 
 <br><br>
@@ -102,8 +107,12 @@ After that has been done, we will next create a Virtual Machine in the rescource
 </p>
 
 <br><br> 
+
+
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/c366ea49-519f-429b-ba67-aff6c51d70a3">
+
+  
 </p>
 
 <br><br>
@@ -111,6 +120,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/4eaacf69-3b41-4957-a3d1-ad6f3f1bfe29">
+
+  
 </p>
 
 <br><br>
@@ -118,6 +129,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/635475b9-20a2-4c70-8070-aca7b21abc11">
+
+  
 </p>
 
 <br><br>
@@ -125,6 +138,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/a9bb65e0-a49c-4ed4-b6c6-b9bca1d7eed2">
+
+  
 </p>
 
 <br><br>
@@ -132,6 +147,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/bf5ea8fc-e474-421f-9fe5-225c67cceeab">
+
+  
 </p>
 
 
@@ -140,6 +157,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/9451808c-1fe9-47ee-9074-c6aa65000dea">
+
+  
 </p>
 
 <br><br>
@@ -147,6 +166,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/74eaa0a9-629b-418a-87ac-a91f3263b2c9">
+
+  
 </p>
 
 <br><br>
@@ -154,6 +175,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/4f826472-abc4-4b20-b2cd-44d21f28a239">
+
+  
 </p>
 
 <br><br>
@@ -161,6 +184,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/d3f88923-5bd6-4c63-a9ea-62893e38a341">
+
+  
 </p>
 
 <br><br>
@@ -168,6 +193,8 @@ After that has been done, we will next create a Virtual Machine in the rescource
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/31ba8ad5-2132-4b51-9a13-4b5177aa69c4">
+
+  
 </p>
 
 <br><br>
