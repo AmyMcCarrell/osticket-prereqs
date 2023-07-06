@@ -32,7 +32,7 @@ In this walkthrough, we’ll tackle the essentials – from prerequisites to a s
 
 - **Microsoft Azure Virtual Machine**
   - [Active subscription in Azure](https://portal.azure.com)
-- **osTicket Installation files**
+- **osTicket Installation Files**
   - [PHP Manager for IIS](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link)
   - [Rewrite Module](https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link)
   - [PHP 7.3.8](https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link)
