@@ -252,32 +252,40 @@ After these extentions are enabled it should look like this ⬇️
 
 <br>
 
-
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/0a1604be-642d-4cd9-93e0-09f334683164">
+
+- Go to file explorer:  This PC > Windows (C:) > inetpub > wwwroot > osTicket > include
+- Look for the file named "ost-sampleconfig.php" 
+- Rename it to "ost-config.php"
+
+- Now right click the file, Click "Properties" > "Security" > "Advanced" > "Disable Inheritance" 
+Select "Remove all new permissions", and give "everyone" permissions.
 </p>
 
 <br>
-
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/25afab08-141b-4db0-90e7-a2921496e137">
 </p>
 
-<br><br>
-
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/72650f92-2f1a-4314-a540-023449e6efcc">
-</p>
 
-<br><br>
-
+Finally we will download and install [HeidiSQL](https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe) 
+- Open Heidi SQL
+- Create a new session, root/Password1
+- Connect to the session
+- Create a database called “osTicket”<br>
+    
+Now, let's continue setting up osTicket in the browser. Jot down your login credentials.
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: Password1
+- Click "Install Now!"</p>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/b91e8eb1-9981-465b-9115-6f4e4716529e">
 </p>
-
-<br><br>
-
-
+Congratulations!
