@@ -76,7 +76,8 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/854652a9-28de-4e92-9a44-e899d01e8a38">
 
-
+1. Now click "Create" and
+2. Select "Azure virtual machine" from the drop down menu
 </p>
 
 <br>
@@ -85,24 +86,24 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/79716214-af1b-4466-b99c-5c86301351bf">
 
-
 </p>
-
-<br><br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/ec27d128-bbb1-4734-a641-25b2ae750c7c">
 
-  
+Next, let's generate a name for our virtual machine within the Resource Group (RG). Please refer to the visual instructions provided above for guidance.<br>
+
+Create a username and password for your virtual machine, similar to how you would set them up for your personal computer. It's important to jot down your username and passwords as we will need them later.
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/e5e2871f-09b2-435a-856b-9aa9f7bc1bf5">
 
+Once our machine is ready, please click the 'Copy' option located to the right of the Public IP Address displayed above. Make sure to copy this IP address.
 
 </p>
 
@@ -112,7 +113,7 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/c366ea49-519f-429b-ba67-aff6c51d70a3">
 
-  
+Next, open the Remote Desktop Connection application on your computer. Paste the copied IP address into the "Computer:" field.
 </p>
 
 <br><br>
@@ -124,7 +125,7 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
   
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
