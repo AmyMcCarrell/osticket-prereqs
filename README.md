@@ -119,8 +119,8 @@ Next, open the Remote Desktop Connection application on your computer. Paste the
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/5f50f7da-615e-4946-b83c-a4f02291494a">
-
-now we need to enable CGI within Internet Information Services (IIS) after establishing the connection, please follow these steps:
+  
+Now we need to enable CGI within Internet Information Services (IIS) after establishing the connection, please follow these steps:
 
 1. Click on the Start Menu.
 2. Open the Windows Features.
@@ -148,57 +148,39 @@ Great! Now that we have enabled IIS, the next step is to install Web Platform In
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/a9bb65e0-a49c-4ed4-b6c6-b9bca1d7eed2">
 
-To complete the installation process, please follow these steps:<br>
+To complete the installation process, please follow these steps:
 
-1. Install PHP Manager for IIS by downloading and running the file named "PHPManagerForIIS_V1.5.0.msi" from the installation files.<br>
+1. Install PHP Manager for IIS:
+   - Download and run the installation file named "PHPManagerForIIS_V1.5.0.msi" from the installation files.
 
-2. Install the Rewrite Module by downloading and running the file named "rewrite_amd64_en-US.msi" from the installation files.<br>
+2. Install the Rewrite Module:
+   - Download and run the installation file named "rewrite_amd64_en-US.msi" from the installation files.
 
-3. Create a new directory named "C:\PHP" on your system.<br>
+3. Create a new directory named "C:\PHP" on your system.
 
-4. Download the PHP 7.3.8 installation files from the provided files using the file named "php-7.3.8-nts-Win32-VC15-x86.zip". Once the download is complete, extract the contents of the zip file into the previously created "C:\PHP" directory.<br>
+4. Download PHP 7.3.8:
+   - Download the file named "php-7.3.8-nts-Win32-VC15-x86.zip" from the provided files.
+   - Once the download is complete, extract the contents of the zip file into the previously created "C:\PHP" directory.
 
-If you encounter difficulties while downloading PHP 7.3.8, you can try the following alternative method:<br>
+5. Install the Visual C++ Redistributable Package:
+   - Download and install "VC_redist.x86.exe" from the installation files.
 
-1. If you haven't already, install Google Chrome.<br>
-
-2. Open Google Chrome and navigate to the download link for PHP 7.3.8 from the installation files.<br>
-
-3. Download PHP 7.3.8 using Google Chrome, and then extract the contents of the downloaded file into the "C:\PHP" directory.<br>
-
-By following these steps, you will successfully install PHP Manager for IIS, the Rewrite Module, and PHP 7.3.8. This ensures that the necessary files are correctly placed in the "C:\PHP" directory.  
+6. Install MySQL 5.5.62:
+   - Download and run the installation file named "mysql-5.5.62-win32.msi" from the installation files.
 </p>
-
-<br>
-
-
-<p align="center">
-  <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/bf5ea8fc-e474-421f-9fe5-225c67cceeab">
-
-  
-</p>
-
 
 <br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/9451808c-1fe9-47ee-9074-c6aa65000dea">
-
-  
 </p>
-
-<br>
-
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/74eaa0a9-629b-418a-87ac-a91f3263b2c9">
-
-  
 </p>
 
-<br><br>
-
+<br>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/4f826472-abc4-4b20-b2cd-44d21f28a239">
