@@ -188,56 +188,76 @@ To complete the installation process, please follow these steps:
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/4f826472-abc4-4b20-b2cd-44d21f28a239">
 
-  
+After installing all the necessary files:
+
+1. Open IIS and run it as an Administrator.
+2. Register PHP in IIS:
+    - Double-click on PHP in IIS.
+    - Click on "Register new PHP version"
 </p>
-
-<br><br>
-
+<br>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/d3f88923-5bd6-4c63-a9ea-62893e38a341">
 
-  
+ - Follow the sequence in the C:\ directory: PHP -> php.cgi.exe. ⬆️
+ - Once PHP has been registered, Open IIS and restart the server by clicking on "Restart Server."   
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/31ba8ad5-2132-4b51-9a13-4b5177aa69c4">
 
-  
+1. Install osTicket v1.15.8:
+   - Download osTicket from the Installation Files Folder
+   - Extract & copy "upload" folder to "c:\inetpub\wwwroot"
+   - Rename the pasted "upload" folder to "osTicket"
+
+2. Again, Restart the server by clicking on "Restart Server" in IIS
 </p>
-
-<br><br>
-
+<br>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/d9308db4-d1ae-4538-9e13-f8ef36a1223e">
+- Access osTicket:
+   - Go to "Sites" > "Default" > "osTicket"
+   - On the right side, click "Browse *:80"
 </p>
 
-<br><br>
-
+<br>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/6c319441-9d6a-4205-9141-3b20908fd7ec">
+To enable these ⬆️ necessary extensions:
+
+1. Go back to IIS and navigate to "Sites" > "Default" > "osTicket"
+
+2. Double-click PHP Manager
+
+3. Click on "Enable or disable an extension"
+
+4. Enable the following extensions:
+   - php_imap.dll
+   - php_intl.dll
+   - php_opcache.dll
+
+After these extentions are enabled it should look like this ⬇️
 </p>
-
-<br><br>
-
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/067353f1-6dcd-4539-95a7-92640edab5cb">
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/0a1604be-642d-4cd9-93e0-09f334683164">
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
