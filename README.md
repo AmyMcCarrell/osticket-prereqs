@@ -167,6 +167,9 @@ To complete the installation process, please follow these steps:
 
 6. Install MySQL 5.5.62:
    - Download and run the installation file named "mysql-5.5.62-win32.msi" from the installation files.
+   -  Follow the prompts for a typical setup.
+   - Launch the Configuration Wizard after the installation is complete.
+   - Choose the "Standard Configuration" option.
 </p>
 
 <br>
