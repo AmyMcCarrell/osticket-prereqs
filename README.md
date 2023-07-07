@@ -49,7 +49,7 @@ Let's begin by creating a resource group in Microsoft Azure. Open the Azure port
 Click on "Create Resource Group" or type "resource" in the search bar to find the option. 
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
@@ -61,7 +61,7 @@ Create a resource group by giving it a unique name and selecting a region.<br>
 3. Click 'Review + Create'.<br>
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
@@ -70,7 +70,7 @@ Create a resource group by giving it a unique name and selecting a region.<br>
 In the search bar, start typing "Virtual". Once the option labeled "Virtual Machine" appears, click on it.
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
@@ -79,7 +79,7 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
 
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
