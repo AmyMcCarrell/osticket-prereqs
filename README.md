@@ -88,7 +88,6 @@ In the search bar, start typing "Virtual". Once the option labeled "Virtual Mach
 
 </p>
 
-
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/ec27d128-bbb1-4734-a641-25b2ae750c7c">
 
@@ -104,10 +103,9 @@ Create a username and password for your virtual machine, similar to how you woul
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/e5e2871f-09b2-435a-856b-9aa9f7bc1bf5">
 
 Once our machine is ready, please click the 'Copy' option located to the right of the Public IP Address displayed above. Make sure to copy this IP address.
-
 </p>
 
-<br><br> 
+<br>
 
 
 <p align="center">
@@ -116,13 +114,23 @@ Once our machine is ready, please click the 'Copy' option located to the right o
 Next, open the Remote Desktop Connection application on your computer. Paste the copied IP address into the "Computer:" field.
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
-  <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/4eaacf69-3b41-4957-a3d1-ad6f3f1bfe29">
+  <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/5f50f7da-615e-4946-b83c-a4f02291494a">
 
-  
+now we need to enable CGI within Internet Information Services (IIS) after establishing the connection, please follow these steps:
+
+1. Click on the Start Menu.
+2. Open the Windows Features.
+3. Locate and select 'Internet Information Services.'
+4. Expand 'World Wide Web Services.'
+5. Select 'Application Development Features.'
+6. Check the box for 'CGI.'
+
+ You can also use the following pathway to navigate to the desired setting: <br>
+ **Start Menu > Windows Feature > Internet Information Services > World Wide Web Services > Application Development Features > CGI.**  
 </p>
 
 <br>
@@ -131,19 +139,37 @@ Next, open the Remote Desktop Connection application on your computer. Paste the
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/635475b9-20a2-4c70-8070-aca7b21abc11">
 
-  
+Great! Now that we have enabled IIS, the next step is to install Web Platform Installer. To access all the necessary installation files, you can follow this link:  [https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6].
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/a9bb65e0-a49c-4ed4-b6c6-b9bca1d7eed2">
 
-  
+To complete the installation process, please follow these steps:<br>
+
+1. Install PHP Manager for IIS by downloading and running the file named "PHPManagerForIIS_V1.5.0.msi" from the installation files.<br>
+
+2. Install the Rewrite Module by downloading and running the file named "rewrite_amd64_en-US.msi" from the installation files.<br>
+
+3. Create a new directory named "C:\PHP" on your system.<br>
+
+4. Download the PHP 7.3.8 installation files from the provided files using the file named "php-7.3.8-nts-Win32-VC15-x86.zip". Once the download is complete, extract the contents of the zip file into the previously created "C:\PHP" directory.<br>
+
+If you encounter difficulties while downloading PHP 7.3.8, you can try the following alternative method:<br>
+
+1. If you haven't already, install Google Chrome.<br>
+
+2. Open Google Chrome and navigate to the download link for PHP 7.3.8 from the installation files.<br>
+
+3. Download PHP 7.3.8 using Google Chrome, and then extract the contents of the downloaded file into the "C:\PHP" directory.<br>
+
+By following these steps, you will successfully install PHP Manager for IIS, the Rewrite Module, and PHP 7.3.8. This ensures that the necessary files are correctly placed in the "C:\PHP" directory.  
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
@@ -153,7 +179,7 @@ Next, open the Remote Desktop Connection application on your computer. Paste the
 </p>
 
 
-<br><br>
+<br>
 
 
 <p align="center">
@@ -162,7 +188,7 @@ Next, open the Remote Desktop Connection application on your computer. Paste the
   
 </p>
 
-<br><br>
+<br>
 
 
 <p align="center">
