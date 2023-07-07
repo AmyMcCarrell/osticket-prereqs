@@ -221,7 +221,8 @@ After installing all the necessary files:
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/d9308db4-d1ae-4538-9e13-f8ef36a1223e">
-- Access osTicket:
+
+  - Access osTicket:
    - Go to "Sites" > "Default" > "osTicket"
    - On the right side, click "Browse *:80"
 </p>
@@ -230,7 +231,8 @@ After installing all the necessary files:
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/6c319441-9d6a-4205-9141-3b20908fd7ec">
-To enable these ⬆️ necessary extensions:
+
+  To enable these ⬆️ necessary extensions:
 
 1. Go back to IIS and navigate to "Sites" > "Default" > "osTicket"
 
@@ -283,7 +285,8 @@ Now, let's continue setting up osTicket in the browser. Jot down your login cred
 - MySQL Database: osTicket
 - MySQL Username: root
 - MySQL Password: Password1
-- Click "Install Now!"</p>
+- Click "Install Now!"
+</p>
 
 <p align="center">
   <img src="https://github.com/AmyMcCarrell/osticket-prereqs/assets/137266179/b91e8eb1-9981-465b-9115-6f4e4716529e">
